@@ -68,7 +68,7 @@ cd test_directory
 This "changes directory" and makes the named directory our new working
 directory. 
 
-> Question: How could we make sure that we moved?
+> Question: How could we make sure that we moved? Check the location using pwd.
 
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
@@ -118,7 +118,7 @@ echo "HELLO WORLD" > test_file.txt
 Now nothing shows up on the screen. List the files and see if you can tell
 why.
 
-> Hint: we learned how to list all the files up above.
+> Hint: we learned how to list all the files up above. We only put the text in the file, but we didn't print them out.
 
 The greater than says, "put that output into the following file instead."
 
@@ -191,7 +191,7 @@ We can get even fancier by adding a second flag
 ls -lh
 ```
 
-> What changed?
+> What changed? Some numbers have been rounded, and there are now units as well.
 
 If instead copying we just want to change the name of a file, we can do:
 
