@@ -11,5 +11,5 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs(unbiased, biased)  
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')  
 
-unbiased.Mean()
+unbiased.Mean()  
 biased.Mean()
